@@ -1,0 +1,25 @@
+{
+  "name": "dockerfileexample",
+  "version": "1.0.0",
+  "description": "Just an optimized dockerfile for nodejs projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iancl/dockerfile-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
